@@ -1,0 +1,14 @@
+var n1= Math.floor(Math.random() * 100);
+var n2= Math.floor(Math.random() * 100);
+var n3= Math.floor(Math.random() * 100);
+var n4= Math.floor(Math.random() * 100);
+var n5= Math.floor(Math.random() * 100);
+console.log("Number 1 : "+n1);
+console.log("Number 2 : "+n2);
+console.log("Number 3 : "+n3);
+console.log("Number 4 : "+n4);
+console.log("Number 5 : "+n5);
+var Addition = n1+n2+n3+n4+n5;
+console.log("Addition of 5 numbers : "+Addition);
+var Average = Addition/5;
+console.log("Average of 5 numbers : "+Average);
